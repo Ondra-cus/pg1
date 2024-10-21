@@ -1,0 +1,35 @@
+def vrat_treti(seznam):
+    if len(seznam) < 3:
+        return None
+    else:
+        return seznam [2]
+    
+
+
+def udelej_prumer(cisla):
+    x = sum(cisla) / len(cisla)
+    return x
+
+""""
+if __name__== "__main__":
+    polozky = [1,2,3,4,5]
+    vysledek = vrat_treti(polozky)
+    print(vysledek)
+"""
+
+seznam_cisel = [1,2,3,4,5]
+prumer = udelej_prumer(seznam_cisel)
+print(prumer)
+
+def naformuj_text(student)
+    jm = student["jmeno"]
+    zn = student["znamky"]
+    prumer = udelej_prumer(zn)
+    print(f"jmeno : {jm}, Prumer znamek: {}")
+
+
+
+data = {
+    "jmeno": "Bob",
+    "znamky": [1,2,1,1,2,3]
+}

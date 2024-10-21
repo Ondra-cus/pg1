@@ -1,0 +1,14 @@
+#  skocim na dalsi řádek = Ctrl + enter
+# Ctrl +´ = #
+# Alt Gr + X = # 
+# {} alt gr b nebo n
+#  spojovaní print("blabla"+"blabla")
+# další řádkla = \n -} Alt Gr + Q, n
+
+
+cena = int(input("Výtejte v kalkulátoru na výpočet plateb.\nKolik máte celkem zaplatit?\n"))
+sprop = int(input("Kolik chcete dát spropitného (v %)?\n"))
+lidi = int(input("Kolik vás bude platit?\n"))
+platba = (cena + (cena * sprop / 100)) / lidi
+latba =round(platba, 2)
+print(f"Každý by měl zaplatit {latba} korun.")
