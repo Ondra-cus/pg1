@@ -6,9 +6,40 @@
 # další řádkla = \n -} Alt Gr + Q, n
 
 
-cena = int(input("Výtejte v kalkulátoru na výpočet plateb.\nKolik máte celkem zaplatit?\n"))
-sprop = int(input("Kolik chcete dát spropitného (v %)?\n"))
-lidi = int(input("Kolik vás bude platit?\n"))
-platba = (cena + (cena * sprop / 100)) / lidi
-latba =round(platba, 2)
-print(f"Každý by měl zaplatit {latba} korun.")
+# cena = int(input("Výtejte v kalkulátoru na výpočet plateb.\nKolik máte celkem zaplatit?\n"))
+# sprop = int(input("Kolik chcete dát spropitného (v %)?\n"))
+# lidi = int(input("Kolik vás bude platit?\n"))
+# platba = (cena + (cena * sprop / 100)) / lidi
+# latba =round(platba, 2)
+# print(f"Každý by měl zaplatit {latba} korun.")
+
+
+# year = int(input("Zadejte rok.\n"))
+# if year % 4 == 0 :
+#     if year % 100 == %:
+#         if year % 400 == 0:
+#             print("Váš rok je přestupný.")
+#         else:
+#             print("Váš rok není přestupný.")
+#     else:
+#         print("Váš rok není přestupný.")
+# else:
+#     print("Váš rok není přestupný.")
+
+
+# jazyk = input("Výtejte! Vyberte jazyk: czech, english ")
+# if jazyk == "czech":
+#     input("zadejte své telefoní číslo.")
+#     print("Váš nový telefon je nastaven.")
+# else:
+#     input("Write your phonenumber.")
+#     print("Welcome in your new mobilephone!!!!!!!!!")
+
+# import random
+
+# coin = random.randint(0,1)
+# if coin == 0:
+#     print("hlava")
+# else:
+#     print("orel")
+
