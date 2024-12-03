@@ -1,14 +1,22 @@
-def faktorial(n):
-    if n == 1:
-        return 1
-    else:
-        return n * faktorial(n - 1)
+import re
 
-def faktorial_for(n):
-    vysledek = 1
-    for number in range(1,n+1):
-        vysledek = vysledek * number
-    return vysledek
-    
+r = re.compile(r"w+")
+
+def zapis_soubor(jmeno_souboru):
+    fp = open(jmeno_souboru, "w")
+    fp.write("Ahoj Všichni!\n")
+    fp.write("Ahoj Ostatní!\n")
+    fp.close()
+
+def precti_soubor(jmeno_souboru):
+    with open(jmeno_souboru, "r") as fp:
+        data = fp.read()
+        print(data)
+        fp.seek(0)
+        for line in fp:
+            line = line.strip()
+            print(line)
+
 if __name__ == "__main__":
-    print(faktorial_for(10))
+    zapis_soubor("data.txt")
+    precti_soubor("data.txt")

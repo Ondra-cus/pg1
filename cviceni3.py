@@ -1,42 +1,57 @@
-def levensteinova_vzdalenost(dotaz1, dotaz2):
-    """
-    Levensteinova vzdalenost říka, jak jsou 2 řetězce rozdílné, pokud jsou stejné je Levensteinova vzdalenost 0,
-    pro řetězce "čas" a "čaj" je Levensteinova vzdalenost 1 (liší se v 1 písmenu)
-    """
-    i = 0
-    lenght = min(len(dotaz1),len(dotaz2))
-    levenstein = 0
-    while i < lenght:
-        if dotaz1[i] != dotaz2[i]:
-            levenstein += 1
-        1 += 1
-    levenstein += abs(len(dotaz1) - len(dotaz2))
-    return levenstein
+import sys
+import csv
 
+def nacti_csv(soubor):
+    data = []
+    with open(soubor, "r") as fp:
+        reader = csv.reader(fp)
+        for line in reader:
+            data.append(line)
+    return data
 
-def levensteinova_vzdalenost_for(dotaz1, dotaz2, m, n):
-    pass
+def spoj_data(data1, data2):
+    if not data1 or not data2:
+        return data1 if data1 else data2
 
+    # Získání hlaviček a dat z obou souborů
+    headers1, *rows1 = data1
+    headers2, *rows2 = data2
 
+    # Vytvoření slovníků pro snadné vyhledávání
+    data_dict1 = {tuple(row[:2]): row[2:] for row in rows1}
+    data_dict2 = {tuple(row[:2]): row[2:] for row in rows2}
 
-#     for i in range(len(dotaz1) + 1):
-#         dp[i][0] = 1
-#     for j in range(len(dotaz2) + 1):
-#         dp[0][j] = 1
+    # Spojení hlaviček a inicializace výsledného seznamu
+    all_headers = list(dict.fromkeys(headers1 + headers2))  # Eliminuje duplicity a udržuje pořadí
+    result_data = [all_headers]
 
-    
-# for i in range(1, len(dotaz1) + 1):
-#     for j in range(1, len(dotaz2) + 1)
+    # Spojení dat
+    all_keys = set(data_dict1.keys()).union(set(data_dict2.keys()))
+
+    for key in all_keys:
+        new_row = list(key) + [data_dict1.get(key, [''])[0]] + [data_dict2.get(key, [''])[0]]
+        result_data.append(new_row)
+
+    return result_data
+
+def zapis_csv(soubor, data):
+    with open(soubor, "w") as fp:
+        writer = csv.writer(fp)
+        writer.writerows(data)
+    return True
 
 if __name__ == "__main__":
-
-    query1 = "seznam"
-    query2 = "seznamka"
-    query3 = "sesnam"
-    query4 = "seznam"
-
-    print(levensteinova_vzdalenost_for(query1, query2))
-    print(levensteinova_vzdalenost_for(query2, query3))
-    print(levensteinova_vzdalenost_for(query1, query3))
-
-    print(levensteinova_vzdalenost_for(query1, query4))
+    try:
+        soubor1 = sys.argv[1]
+        soubor2 = sys.argv[2]
+        csv_data1 = nacti_csv(soubor1)
+        csv_data2 = nacti_csv(soubor2)
+        vysledna_data = spoj_data(csv_data1, csv_data2)
+        print(vysledna_data)
+        vysledek_zapisu = zapis_csv("vysledny_excel.csv", vysledna_data)
+    except IndexError:
+        print("Nebyly zadany soubory")
+    except FileNotFoundError:
+        print("Soubor neexistuje")
+    except Exception:
+        print("Nastala neočekávaná chyba.")

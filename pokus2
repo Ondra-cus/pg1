@@ -43,3 +43,18 @@
 # else:
 #     print("orel")
 
+# for one_number in range (1, 101):
+#     if one_number % 3 == 0 and one_number % 5 ==0:
+#         print ("fizzbuzz")
+#     elif one_number % 5 == 0:
+#         print("buzz")
+#     elif one_number % 3 == 0:
+#         print("fizz")
+#     else:
+#         print(one_number)
+
+# for i in range (0, 100):
+#     if i % 2 == 0 and i > 0:
+#         print(i)
+
+
