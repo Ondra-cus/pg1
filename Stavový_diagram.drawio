@@ -1,9 +1,170 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Stránka-1" id="gjUf1rUkMjK2eCckX-cI">
-    <mxGraphModel>
+    <mxGraphModel dx="1909" dy="1027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SSwM98_CorHeFFuDMMeL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-1" target="SSwM98_CorHeFFuDMMeL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="70" y="125" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-2" target="SSwM98_CorHeFFuDMMeL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="625" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-3" target="SSwM98_CorHeFFuDMMeL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-5" target="SSwM98_CorHeFFuDMMeL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-5" value="prázdný" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="200" />
+              <mxPoint x="221" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-6" value="obsazený" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-7" target="SSwM98_CorHeFFuDMMeL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-7" target="SSwM98_CorHeFFuDMMeL-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-7" value="čeká" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-8" target="SSwM98_CorHeFFuDMMeL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-8" target="SSwM98_CorHeFFuDMMeL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-8" value="poskytuje pomoc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-9" target="SSwM98_CorHeFFuDMMeL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-9" target="SSwM98_CorHeFFuDMMeL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-9" target="SSwM98_CorHeFFuDMMeL-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="188" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-9" value="čeká" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-10" target="SSwM98_CorHeFFuDMMeL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-10" target="SSwM98_CorHeFFuDMMeL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-10" target="SSwM98_CorHeFFuDMMeL-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="460" />
+              <mxPoint x="220" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-10" value="trénuje" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-11" target="SSwM98_CorHeFFuDMMeL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-11" value="hraje zápas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-12" target="SSwM98_CorHeFFuDMMeL-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-12" value="je zraněný" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-19" value="Stadion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-20" value="příchod týmu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="110" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-21" value="odchod týmu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="178" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.183;entryY=1.053;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SSwM98_CorHeFFuDMMeL-11" target="SSwM98_CorHeFFuDMMeL-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="767" y="480" />
+              <mxPoint x="182" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-30" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="252.5" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-31" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="190" y="730" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-32" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="260" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-35" value="hráč" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="350" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-40" value="začátek tréninku" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="370" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-41" value="jde na zápas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="370" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-42" value="zraní se" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="240" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-43" value="odehraje zápas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="458" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-44" value="odtrénuje" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="438" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-48" value="jde na zápas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="318" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-49" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="737.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-52" value="zdravotník" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="585" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-53" value="příchod zraněného" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="615" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-56" value="nedokáže pomoct" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="570" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SSwM98_CorHeFFuDMMeL-57" value="dokáže pomoct" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="670" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
